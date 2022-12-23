@@ -7,7 +7,7 @@ The keys for playing:
   UP - W or w
   DOWN - X or x
   LEFT - A or a
-	RIGHT - D or d" 
+  RIGHT - D or d" 
   Switch to the Big Ship - B or b
   Switch to the Small Ship - S or s
 
