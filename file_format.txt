@@ -1,0 +1,20 @@
+Result file:
+Each line consists of a character and an integer.
+A character can be one of the following:  W (Level completed), D (Ship died or Time over), L (Game over).
+The integer represents the time remaining when one of the above happens.
+The last line in the file will always start with a W or an L.
+
+
+- Note: In save mode and simple mode, 
+             the wandering ghost changes direction each time at a 50% chance -> if (rand() % 2 == 0) .
+
+Steps file:
+- The letters (a, d, w, x, s, b) are the moves of the ships.
+- According to the written note, in each while loop of the game, 
+   a character will be written to the step file symbolizing whether there will be a change of direction of the wandering ghost:
+   '%' - There is a change of direction.
+   '^' - No change.
+   If the character '%' appears, immediately after it two numbers will appear (from the numbers: -1, 0, 1),
+   which indicates directions to the ghost.  The first number represents x and the second number represents y.
+
+
